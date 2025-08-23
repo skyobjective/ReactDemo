@@ -10,7 +10,9 @@
       "Bash(git push -u origin master)",
       "Bash(git config --list)",
       "Bash(git init)",
-      "Bash(git init .)"
+      "Bash(git init .)",
+      "Bash(git add .gitignore)",
+      "Bash(git commit -m \"Add .gitignore to exclude node_modules, build, and .claude directories\")"
     ],
     "deny": [],
     "ask": [],
