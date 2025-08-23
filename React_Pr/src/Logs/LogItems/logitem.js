@@ -13,6 +13,7 @@ const Items = (props) => {
         if (props.onDelete) {
             props.onDelete(props.id);
         }
+        
     };
     
     return (
@@ -21,6 +22,7 @@ const Items = (props) => {
                 <MyDate month={month1} day={day1} />
                 <Content desc={props.name} time={props.time} />
             </div>
+            
             <button className="delete-btn" onClick={handleDelete}>删除</button>
         </Card>
     );
