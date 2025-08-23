@@ -18,7 +18,12 @@
       "Bash(git commit -m \"$(cat <<''EOF''\nUpdate package files and styling\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(git pull origin master)",
       "Bash(git pull origin master --allow-unrelated-histories)",
-      "Bash(git push origin master)"
+      "Bash(git push origin master)",
+      "Bash(git fetch origin)",
+      "Bash(git add src/index.css)",
+      "Bash(git commit -m \"Force update index.css with local version\")",
+      "Bash(git commit --amend --no-edit)",
+      "Bash(git push origin master --force)"
     ],
     "deny": [],
     "ask": [],
