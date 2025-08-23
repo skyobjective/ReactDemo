@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__fileSystem__write_file",
+      "mcp__fileSystem__list_allowed_directories",
+      "mcp__smithery-ai-github__create_repository",
+      "Bash(git add .)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: React practice application with learning tracker\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git remote add origin https://github.com/skyobjective/ReactDemo.git)",
+      "Bash(git push -u origin master)",
+      "Bash(git config --list)",
+      "Bash(git init)",
+      "Bash(git init .)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "/Users/xiehongxing/Desktop"
+    ]
+  }
+}
