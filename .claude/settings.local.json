@@ -13,7 +13,12 @@
       "Bash(git init .)",
       "Bash(git add .gitignore)",
       "Bash(git commit -m \"Add .gitignore to exclude node_modules, build, and .claude directories\")",
-      "Bash(git add .claude/settings.local.json src/index.css)"
+      "Bash(git add .claude/settings.local.json src/index.css)",
+      "Bash(git add package-lock.json package.json src/index.css)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nUpdate package files and styling\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git pull origin master)",
+      "Bash(git pull origin master --allow-unrelated-histories)",
+      "Bash(git push origin master)"
     ],
     "deny": [],
     "ask": [],
