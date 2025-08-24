@@ -1,0 +1,52 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.confirm-model {
+  position: fixed;
+  top: 30vh;
+  left: 30%;
+  width: 40%;
+  z-index: 100;
+   overflow: hidden; 
+  text-align: center;
+}
+
+.confirm-model h2 {
+  margin: 0;
+  padding: 1rem;
+  background-color: #4a026b;
+  color: white;
+}
+
+.confirm-model p {
+  padding: 1rem;
+}
+
+.confirm-model-actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.confirm-model-actions button {
+  font: inherit;
+  padding: 0.5rem 1rem;
+  border: 1px solid #4a026b;
+  background-color: #4a026b;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.confirm-model-actions button:hover,
+.confirm-model-actions button:active {
+  background-color: #6e009e;
+  border-color: #6e009e;
+}
